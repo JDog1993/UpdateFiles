@@ -1,0 +1,219 @@
+
+<type name="MorsecodeLeaflet_blood">
+		<damage min="0.0" max="0.0" />
+	</type>
+<type name="MorsecodeLeaflet_coffee">
+		<damage min="0.0" max="0.0" />
+	</type>
+<type name="MorsecodeLeaflet_fire">
+		<damage min="0.0" max="0.0" />
+	</type>
+<type name="PlateCarrierVest_Desert">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.25">
+			<item name="PlateCarrierHolster_Desert" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PlateCarrierPouches_Desert" chance="1.00" />
+		</attachments>
+	</type>
+<type name="PlateCarrierPouches_Desert">
+		<cargo chance="1.0">
+			<item name="MorsecodeLeaflet_blood" chance="0.33" />
+			<item name="MorsecodeLeaflet_fire" chance="0.33" />
+			<item name="MorsecodeLeaflet_coffee" chance="0.33" />
+		</cargo>
+	</type>
+<type name="TortillaBag_Desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+		<cargo chance="1.0">
+			<item name="MorsecodeLeaflet_blood" chance="0.33" />
+			<item name="MorsecodeLeaflet_fire" chance="0.33" />
+			<item name="MorsecodeLeaflet_coffee" chance="0.33" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="Mag_SCARH_20Rnd" chance="1.0" />
+		</cargo>
+	</type>
+<type name="ZmbF_usSoldier_normal_Desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="headtorches" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="vestsArmy" />
+		<cargo chance="1.0">
+			<item name="MorsecodeLeaflet_blood" chance="0.33" />
+			<item name="MorsecodeLeaflet_fire" chance="0.33" />
+			<item name="MorsecodeLeaflet_coffee" chance="0.33" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="Mag_SCARH_20Rnd" chance="1.0" />
+		</cargo>
+	</type>
+<type name="ZmbF_usSoldier_Heavy_Desert">
+		<cargo preset="foodArmy" />		
+		<attachments preset="HeavyArmorArmy" />
+		<attachments preset="HeavyHelmetArmy" />
+		<cargo chance="1.0">
+			<item name="MorsecodeLeaflet_blood" chance="0.33" />
+			<item name="MorsecodeLeaflet_fire" chance="0.33" />
+			<item name="MorsecodeLeaflet_coffee" chance="0.33" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="Mag_SCARH_20Rnd" chance="1.0" />
+		</cargo>
+	</type>
+<type name="SCARH">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="SCAR_PrecisionBttstck" chance="0.50" />
+			<item name="SCAR_StockBttstck" chance="0.50" />
+		</attachments>
+		<attachments chance="0.33">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_SCARH_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+<type name="SCARH_Black">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="SCAR_PrecisionBttstck_Black" chance="0.50" />
+			<item name="SCAR_StockBttstck_Black" chance="0.50" />
+		</attachments>
+		<attachments chance="0.33">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_SCARH_20Rnd_Black" chance="1.00" />
+		</attachments>
+	</type>
+<type name="USMCPants_Desert">
+		<cargo preset="mixArmy" />
+		<cargo chance="1.0">
+			<item name="MorsecodeLeaflet_blood" chance="0.33" />
+			<item name="MorsecodeLeaflet_fire" chance="0.33" />
+			<item name="MorsecodeLeaflet_coffee" chance="0.33" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="Mag_SCARH_20Rnd" chance="1.0" />
+		</cargo>
+	</type>
+<type name="USMCJacket_Desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo chance="1.0">
+			<item name="MorsecodeLeaflet_blood" chance="0.33" />
+			<item name="MorsecodeLeaflet_fire" chance="0.33" />
+			<item name="MorsecodeLeaflet_coffee" chance="0.33" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="Mag_SCARH_20Rnd" chance="1.0" />
+		</cargo>
+	</type>
+<type name="MP5K">
+		<attachments chance="0.05">
+			<item name="MP5_RailHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MP5_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MP5k_StockBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_MP5_15Rnd" chance="0.5" />
+			<item name="Mag_MP5_30Rnd" chance="0.5" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="MP5_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+<type name="UMP45">
+		<attachments chance="0.20">
+			<item name="Mag_UMP_25Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+	</type>
+<type name="ASVAL">
+		<attachments chance="0.35">
+			<item name="Mag_VSS_10Rnd" chance="0.50" />
+			<item name="Mag_VAL_20Rnd" chance="0.35" />
+			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>	
+		<attachments chance="0.10">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+	</type>
+<type name="Aug">
+		<attachments chance="0.25">
+			<item name="Mag_Aug_30Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>	
+		<attachments chance="0.10">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+	</type>
+<type name="FAL">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="Fal_FoldingBttstck" chance="0.50" />
+			<item name="Fal_OeBttstck" chance="0.50" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
