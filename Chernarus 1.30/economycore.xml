@@ -1,0 +1,2 @@
+<rootclass name="MotorbikeScript" act="car" reportMemoryLOD="no" />
+<rootclass name="HouseDestructible" reportMemoryLOD="no" />

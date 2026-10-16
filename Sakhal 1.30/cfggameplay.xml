@@ -1,0 +1,17 @@
+<diff>
+  <!-- REMOVED (10) — only in File A -->
+  "rotationSpeedJog": 0.15,
+  "disableDistanceCheck": false,
+  "disableItemFalling": false,
+  "disableDropAttachmentsOnFall": false,
+  "disableRefundMaterialsOnFall": false
+  "boatDecayMultiplier": 1,
+  "canDetachAttachedCarWheels": true,
+  "canDamageAttachedCarWheels": true,
+  "canDetachAttachedBikeWheels": true,
+  "canDamageAttachedBikeWheels": true
+  <!-- ADDED (3) — only in File B -->
+  "rotationSpeedJog": 0.3,
+  "disableDistanceCheck": false
+  "boatDecayMultiplier": 1
+</diff>
